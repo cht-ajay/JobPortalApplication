@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/",
+    "isAuthenticate": false,
+    "component": "HeroPage"
+  },
+  {
+    "path": "/signup",
+    "isAuthenticate": false,
+    "component": "Signup"
+  },
+  {
+    "path": "/login",
+    "isAuthenticate": false,
+    "component": "Login"
+  },
+  {
+    "path": "/profile",
+    "isAuthenticate": true,
+    "component": "Profile"
+  },
+  {
+    "path": "/jobs",
+    "isAuthenticate": false,
+    "component": "Jobs"
+  },
+  {
+    "path": "/createjob",
+    "isAuthenticate": true,
+    "component": "CreateJob"
+  },
+  {
+    "path": "/jobdetails/:job_id",
+    "isAuthenticate": true,
+    "component": "JobDetails"
+  },
+  {
+    "path": "/allresume",
+    "isAuthenticate": true,
+    "component": "AllResume"
+  },
+  {
+    "path": "/userdetails/:user_id",
+    "isAuthenticate": true,
+    "component": "UserDetail"
+  }
+]

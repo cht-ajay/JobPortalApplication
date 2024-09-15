@@ -1,0 +1,19 @@
+/* src/components/HeroPage.css */
+.hero-section {
+    background: #808080;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+    .hero-section .display-4 {
+        font-size: 3rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1.5rem;
+    }
